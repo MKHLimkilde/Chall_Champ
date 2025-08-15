@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C146AAA2A37A89F00D076D5 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C146AA92A37A89F00D076D5 /* DataBaseManager.swift */; };
+		2C146AAC2A37A97900D076D5 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C146AAB2A37A97900D076D5 /* AuthManager.swift */; };
+		2C146AAE2A37A9A600D076D5 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C146AAD2A37A9A600D076D5 /* StorageManager.swift */; };
+		2C48C15C2A51F367007FFC69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C48C15B2A51F367007FFC69 /* GoogleService-Info.plist */; };
+		2C623D942A38A389006B26F7 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C623D932A38A389006B26F7 /* Extentions.swift */; };
+		2C9A2E122A54212C00139A18 /* ChallChampFeedPostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9A2E112A54212C00139A18 /* ChallChampFeedPostTableViewCell.swift */; };
+		2CF677E62A31F6CF00CDC50B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF677E52A31F6CF00CDC50B /* AppDelegate.swift */; };
+		2CF677E82A31F6CF00CDC50B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF677E72A31F6CF00CDC50B /* SceneDelegate.swift */; };
+		2CF677EA2A31F6CF00CDC50B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF677E92A31F6CF00CDC50B /* HomeViewController.swift */; };
+		2CF677ED2A31F6CF00CDC50B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF677EB2A31F6CF00CDC50B /* Main.storyboard */; };
+		2CF677EF2A31F6CF00CDC50B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF677EE2A31F6CF00CDC50B /* Assets.xcassets */; };
+		2CF677F22A31F6CF00CDC50B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CF677F02A31F6CF00CDC50B /* LaunchScreen.storyboard */; };
+		2CF677FD2A31F6CF00CDC50B /* Chall_ChampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF677FC2A31F6CF00CDC50B /* Chall_ChampTests.swift */; };
+		2CF678072A31F6CF00CDC50B /* Chall_ChampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678062A31F6CF00CDC50B /* Chall_ChampUITests.swift */; };
+		2CF678092A31F6CF00CDC50B /* Chall_ChampUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678082A31F6CF00CDC50B /* Chall_ChampUITestsLaunchTests.swift */; };
+		2CF6781B2A31F88A00CDC50B /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6781A2A31F88A00CDC50B /* ExploreViewController.swift */; };
+		2CF6781D2A31F8AE00CDC50B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6781C2A31F8AE00CDC50B /* CameraViewController.swift */; };
+		2CF6781F2A31F8BF00CDC50B /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6781E2A31F8BF00CDC50B /* NotificationsViewController.swift */; };
+		2CF678212A31F8CC00CDC50B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678202A31F8CC00CDC50B /* ProfileViewController.swift */; };
+		2CF678262A31F94100CDC50B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678252A31F94100CDC50B /* LoginViewController.swift */; };
+		2CF678282A31F95000CDC50B /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678272A31F95000CDC50B /* RegistrationViewController.swift */; };
+		2CF6782A2A31F97200CDC50B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678292A31F97200CDC50B /* PostViewController.swift */; };
+		2CF6782C2A31F99200CDC50B /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6782B2A31F99200CDC50B /* EditProfileViewController.swift */; };
+		2CF6782E2A31F9B200CDC50B /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6782D2A31F9B200CDC50B /* SettingsViewController.swift */; };
+		2CF678302A31F9BE00CDC50B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF6782F2A31F9BE00CDC50B /* ListViewController.swift */; };
+		2CF678322A31F9D500CDC50B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678312A31F9D500CDC50B /* SearchViewController.swift */; };
+		2CF678342A31F9F200CDC50B /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678332A31F9F200CDC50B /* SearchResultViewController.swift */; };
+		2CF678362A31FA1900CDC50B /* PostEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678352A31FA1900CDC50B /* PostEditorViewController.swift */; };
+		2CF678382A31FA3200CDC50B /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF678372A31FA3200CDC50B /* PublishPostViewController.swift */; };
+		BC212BB1D1C2BB92A86A0FBB /* Pods_Chall_Champ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CE8A442161395B9F625D423 /* Pods_Chall_Champ.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CF677F92A31F6CF00CDC50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF677DA2A31F6CF00CDC50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF677E12A31F6CF00CDC50B;
+			remoteInfo = "Chall Champ";
+		};
+		2CF678032A31F6CF00CDC50B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CF677DA2A31F6CF00CDC50B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF677E12A31F6CF00CDC50B;
+			remoteInfo = "Chall Champ";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C146AA92A37A89F00D076D5 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		2C146AAB2A37A97900D076D5 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		2C146AAD2A37A9A600D076D5 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		2C48C15B2A51F367007FFC69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C623D932A38A389006B26F7 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		2C9A2E112A54212C00139A18 /* ChallChampFeedPostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallChampFeedPostTableViewCell.swift; sourceTree = "<group>"; };
+		2CF677E22A31F6CF00CDC50B /* Chall Champ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chall Champ.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF677E52A31F6CF00CDC50B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CF677E72A31F6CF00CDC50B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2CF677E92A31F6CF00CDC50B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2CF677EC2A31F6CF00CDC50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CF677EE2A31F6CF00CDC50B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CF677F12A31F6CF00CDC50B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CF677F32A31F6CF00CDC50B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CF677F82A31F6CF00CDC50B /* Chall ChampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chall ChampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF677FC2A31F6CF00CDC50B /* Chall_ChampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chall_ChampTests.swift; sourceTree = "<group>"; };
+		2CF678022A31F6CF00CDC50B /* Chall ChampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chall ChampUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF678062A31F6CF00CDC50B /* Chall_ChampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chall_ChampUITests.swift; sourceTree = "<group>"; };
+		2CF678082A31F6CF00CDC50B /* Chall_ChampUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chall_ChampUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CF6781A2A31F88A00CDC50B /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		2CF6781C2A31F8AE00CDC50B /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2CF6781E2A31F8BF00CDC50B /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		2CF678202A31F8CC00CDC50B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2CF678252A31F94100CDC50B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2CF678272A31F95000CDC50B /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		2CF678292A31F97200CDC50B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		2CF6782B2A31F99200CDC50B /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		2CF6782D2A31F9B200CDC50B /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		2CF6782F2A31F9BE00CDC50B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		2CF678312A31F9D500CDC50B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2CF678332A31F9F200CDC50B /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		2CF678352A31FA1900CDC50B /* PostEditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEditorViewController.swift; sourceTree = "<group>"; };
+		2CF678372A31FA3200CDC50B /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		50DBB9B03C5C4C0D42044D09 /* Pods-Chall Champ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chall Champ.debug.xcconfig"; path = "Target Support Files/Pods-Chall Champ/Pods-Chall Champ.debug.xcconfig"; sourceTree = "<group>"; };
+		5CE8A442161395B9F625D423 /* Pods_Chall_Champ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chall_Champ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B9BBB2A9EBDDA6B929D43D0 /* Pods-Chall Champ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chall Champ.release.xcconfig"; path = "Target Support Files/Pods-Chall Champ/Pods-Chall Champ.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CF677DF2A31F6CF00CDC50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC212BB1D1C2BB92A86A0FBB /* Pods_Chall_Champ.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF677F52A31F6CF00CDC50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF677FF2A31F6CF00CDC50B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C9A2E132A54213800139A18 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A2E142A54243100139A18 /* Home Feed */,
+				2C9A2E112A54212C00139A18 /* ChallChampFeedPostTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2C9A2E142A54243100139A18 /* Home Feed */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home Feed";
+			sourceTree = "<group>";
+		};
+		2CECA7402A379CAA002FD16E /* General */ = {
+			isa = PBXGroup;
+			children = (
+				2CF678312A31F9D500CDC50B /* SearchViewController.swift */,
+				2CF678332A31F9F200CDC50B /* SearchResultViewController.swift */,
+				2CF678352A31FA1900CDC50B /* PostEditorViewController.swift */,
+				2CF678372A31FA3200CDC50B /* PublishPostViewController.swift */,
+				2CF678292A31F97200CDC50B /* PostViewController.swift */,
+				2CF6782B2A31F99200CDC50B /* EditProfileViewController.swift */,
+				2CF6782D2A31F9B200CDC50B /* SettingsViewController.swift */,
+				2CF6782F2A31F9BE00CDC50B /* ListViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		2CF677D92A31F6CF00CDC50B = {
+			isa = PBXGroup;
+			children = (
+				2CF677E42A31F6CF00CDC50B /* Chall Champ */,
+				2CF677FB2A31F6CF00CDC50B /* Chall ChampTests */,
+				2CF678052A31F6CF00CDC50B /* Chall ChampUITests */,
+				2CF677E32A31F6CF00CDC50B /* Products */,
+				BD3AF90978DD353AF11B4525 /* Pods */,
+				B1F4586DA59C9AED8502B20E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CF677E32A31F6CF00CDC50B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CF677E22A31F6CF00CDC50B /* Chall Champ.app */,
+				2CF677F82A31F6CF00CDC50B /* Chall ChampTests.xctest */,
+				2CF678022A31F6CF00CDC50B /* Chall ChampUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CF677E42A31F6CF00CDC50B /* Chall Champ */ = {
+			isa = PBXGroup;
+			children = (
+				2CF678192A31F73B00CDC50B /* Controllers */,
+				2CF678172A31F6EE00CDC50B /* Resources */,
+				2CF678162A31F6E100CDC50B /* Views */,
+				2CF678152A31F6D900CDC50B /* Models */,
+				2CF677F32A31F6CF00CDC50B /* Info.plist */,
+			);
+			path = "Chall Champ";
+			sourceTree = "<group>";
+		};
+		2CF677FB2A31F6CF00CDC50B /* Chall ChampTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF677FC2A31F6CF00CDC50B /* Chall_ChampTests.swift */,
+			);
+			path = "Chall ChampTests";
+			sourceTree = "<group>";
+		};
+		2CF678052A31F6CF00CDC50B /* Chall ChampUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CF678062A31F6CF00CDC50B /* Chall_ChampUITests.swift */,
+				2CF678082A31F6CF00CDC50B /* Chall_ChampUITestsLaunchTests.swift */,
+			);
+			path = "Chall ChampUITests";
+			sourceTree = "<group>";
+		};
+		2CF678152A31F6D900CDC50B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CF678162A31F6E100CDC50B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2C9A2E132A54213800139A18 /* Cells */,
+				2CF677EE2A31F6CF00CDC50B /* Assets.xcassets */,
+				2CF678182A31F72200CDC50B /* Storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CF678172A31F6EE00CDC50B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2C48C15B2A51F367007FFC69 /* GoogleService-Info.plist */,
+				2CF677E52A31F6CF00CDC50B /* AppDelegate.swift */,
+				2CF677E72A31F6CF00CDC50B /* SceneDelegate.swift */,
+				2C146AA92A37A89F00D076D5 /* DataBaseManager.swift */,
+				2C146AAB2A37A97900D076D5 /* AuthManager.swift */,
+				2C146AAD2A37A9A600D076D5 /* StorageManager.swift */,
+				2C623D932A38A389006B26F7 /* Extentions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2CF678182A31F72200CDC50B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				2CF677EB2A31F6CF00CDC50B /* Main.storyboard */,
+				2CF677F02A31F6CF00CDC50B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		2CF678192A31F73B00CDC50B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CF678232A31F91800CDC50B /* Other */,
+				2CF678222A31F8D800CDC50B /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CF678222A31F8D800CDC50B /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				2CF677E92A31F6CF00CDC50B /* HomeViewController.swift */,
+				2CF6781A2A31F88A00CDC50B /* ExploreViewController.swift */,
+				2CF6781C2A31F8AE00CDC50B /* CameraViewController.swift */,
+				2CF6781E2A31F8BF00CDC50B /* NotificationsViewController.swift */,
+				2CF678202A31F8CC00CDC50B /* ProfileViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		2CF678232A31F91800CDC50B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				2CF678242A31F92600CDC50B /* Onboarding */,
+				2CECA7402A379CAA002FD16E /* General */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		2CF678242A31F92600CDC50B /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				2CF678272A31F95000CDC50B /* RegistrationViewController.swift */,
+				2CF678252A31F94100CDC50B /* LoginViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B1F4586DA59C9AED8502B20E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CE8A442161395B9F625D423 /* Pods_Chall_Champ.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD3AF90978DD353AF11B4525 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50DBB9B03C5C4C0D42044D09 /* Pods-Chall Champ.debug.xcconfig */,
+				7B9BBB2A9EBDDA6B929D43D0 /* Pods-Chall Champ.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CF677E12A31F6CF00CDC50B /* Chall Champ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF6780C2A31F6CF00CDC50B /* Build configuration list for PBXNativeTarget "Chall Champ" */;
+			buildPhases = (
+				C569806BDD887E393A1952D9 /* [CP] Check Pods Manifest.lock */,
+				2CF677DE2A31F6CF00CDC50B /* Sources */,
+				2CF677DF2A31F6CF00CDC50B /* Frameworks */,
+				2CF677E02A31F6CF00CDC50B /* Resources */,
+				0FF3ED05C85F2F7CD5CA71B0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chall Champ";
+			productName = "Chall Champ";
+			productReference = 2CF677E22A31F6CF00CDC50B /* Chall Champ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CF677F72A31F6CF00CDC50B /* Chall ChampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF6780F2A31F6CF00CDC50B /* Build configuration list for PBXNativeTarget "Chall ChampTests" */;
+			buildPhases = (
+				2CF677F42A31F6CF00CDC50B /* Sources */,
+				2CF677F52A31F6CF00CDC50B /* Frameworks */,
+				2CF677F62A31F6CF00CDC50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF677FA2A31F6CF00CDC50B /* PBXTargetDependency */,
+			);
+			name = "Chall ChampTests";
+			productName = "Chall ChampTests";
+			productReference = 2CF677F82A31F6CF00CDC50B /* Chall ChampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CF678012A31F6CF00CDC50B /* Chall ChampUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF678122A31F6CF00CDC50B /* Build configuration list for PBXNativeTarget "Chall ChampUITests" */;
+			buildPhases = (
+				2CF677FE2A31F6CF00CDC50B /* Sources */,
+				2CF677FF2A31F6CF00CDC50B /* Frameworks */,
+				2CF678002A31F6CF00CDC50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CF678042A31F6CF00CDC50B /* PBXTargetDependency */,
+			);
+			name = "Chall ChampUITests";
+			productName = "Chall ChampUITests";
+			productReference = 2CF678022A31F6CF00CDC50B /* Chall ChampUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CF677DA2A31F6CF00CDC50B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2CF677E12A31F6CF00CDC50B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					2CF677F72A31F6CF00CDC50B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2CF677E12A31F6CF00CDC50B;
+					};
+					2CF678012A31F6CF00CDC50B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = 2CF677E12A31F6CF00CDC50B;
+					};
+				};
+			};
+			buildConfigurationList = 2CF677DD2A31F6CF00CDC50B /* Build configuration list for PBXProject "ChallChamp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CF677D92A31F6CF00CDC50B;
+			packageReferences = (
+				2CC051DD2A378474002E3BB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 2CF677E32A31F6CF00CDC50B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF677E12A31F6CF00CDC50B /* Chall Champ */,
+				2CF677F72A31F6CF00CDC50B /* Chall ChampTests */,
+				2CF678012A31F6CF00CDC50B /* Chall ChampUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CF677E02A31F6CF00CDC50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF677F22A31F6CF00CDC50B /* LaunchScreen.storyboard in Resources */,
+				2C48C15C2A51F367007FFC69 /* GoogleService-Info.plist in Resources */,
+				2CF677EF2A31F6CF00CDC50B /* Assets.xcassets in Resources */,
+				2CF677ED2A31F6CF00CDC50B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF677F62A31F6CF00CDC50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF678002A31F6CF00CDC50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FF3ED05C85F2F7CD5CA71B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chall Champ/Pods-Chall Champ-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chall Champ/Pods-Chall Champ-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chall Champ/Pods-Chall Champ-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C569806BDD887E393A1952D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chall Champ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CF677DE2A31F6CF00CDC50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF6782C2A31F99200CDC50B /* EditProfileViewController.swift in Sources */,
+				2CF6781B2A31F88A00CDC50B /* ExploreViewController.swift in Sources */,
+				2CF678382A31FA3200CDC50B /* PublishPostViewController.swift in Sources */,
+				2CF6781D2A31F8AE00CDC50B /* CameraViewController.swift in Sources */,
+				2CF677EA2A31F6CF00CDC50B /* HomeViewController.swift in Sources */,
+				2CF678282A31F95000CDC50B /* RegistrationViewController.swift in Sources */,
+				2CF678362A31FA1900CDC50B /* PostEditorViewController.swift in Sources */,
+				2C146AAE2A37A9A600D076D5 /* StorageManager.swift in Sources */,
+				2CF6782A2A31F97200CDC50B /* PostViewController.swift in Sources */,
+				2CF6781F2A31F8BF00CDC50B /* NotificationsViewController.swift in Sources */,
+				2CF678342A31F9F200CDC50B /* SearchResultViewController.swift in Sources */,
+				2C146AAA2A37A89F00D076D5 /* DataBaseManager.swift in Sources */,
+				2CF678262A31F94100CDC50B /* LoginViewController.swift in Sources */,
+				2CF678322A31F9D500CDC50B /* SearchViewController.swift in Sources */,
+				2C9A2E122A54212C00139A18 /* ChallChampFeedPostTableViewCell.swift in Sources */,
+				2CF678212A31F8CC00CDC50B /* ProfileViewController.swift in Sources */,
+				2C146AAC2A37A97900D076D5 /* AuthManager.swift in Sources */,
+				2CF677E62A31F6CF00CDC50B /* AppDelegate.swift in Sources */,
+				2CF677E82A31F6CF00CDC50B /* SceneDelegate.swift in Sources */,
+				2CF678302A31F9BE00CDC50B /* ListViewController.swift in Sources */,
+				2CF6782E2A31F9B200CDC50B /* SettingsViewController.swift in Sources */,
+				2C623D942A38A389006B26F7 /* Extentions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF677F42A31F6CF00CDC50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF677FD2A31F6CF00CDC50B /* Chall_ChampTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF677FE2A31F6CF00CDC50B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF678072A31F6CF00CDC50B /* Chall_ChampUITests.swift in Sources */,
+				2CF678092A31F6CF00CDC50B /* Chall_ChampUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CF677FA2A31F6CF00CDC50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF677E12A31F6CF00CDC50B /* Chall Champ */;
+			targetProxy = 2CF677F92A31F6CF00CDC50B /* PBXContainerItemProxy */;
+		};
+		2CF678042A31F6CF00CDC50B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CF677E12A31F6CF00CDC50B /* Chall Champ */;
+			targetProxy = 2CF678032A31F6CF00CDC50B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CF677EB2A31F6CF00CDC50B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF677EC2A31F6CF00CDC50B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CF677F02A31F6CF00CDC50B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CF677F12A31F6CF00CDC50B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CF6780A2A31F6CF00CDC50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CF6780B2A31F6CF00CDC50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CF6780D2A31F6CF00CDC50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50DBB9B03C5C4C0D42044D09 /* Pods-Chall Champ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44N5847QNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chall Champ/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ChallChamp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChallChamp.Chall-Champ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF6780E2A31F6CF00CDC50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9BBB2A9EBDDA6B929D43D0 /* Pods-Chall Champ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44N5847QNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Chall Champ/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = ChallChamp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChallChamp.Chall-Champ";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CF678102A31F6CF00CDC50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44N5847QNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChallChamp.Chall-ChampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chall Champ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chall Champ";
+			};
+			name = Debug;
+		};
+		2CF678112A31F6CF00CDC50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44N5847QNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChallChamp.Chall-ChampTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chall Champ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Chall Champ";
+			};
+			name = Release;
+		};
+		2CF678132A31F6CF00CDC50B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44N5847QNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChallChamp.Chall-ChampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chall Champ";
+			};
+			name = Debug;
+		};
+		2CF678142A31F6CF00CDC50B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 44N5847QNN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChallChamp.Chall-ChampUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chall Champ";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF677DD2A31F6CF00CDC50B /* Build configuration list for PBXProject "ChallChamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF6780A2A31F6CF00CDC50B /* Debug */,
+				2CF6780B2A31F6CF00CDC50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF6780C2A31F6CF00CDC50B /* Build configuration list for PBXNativeTarget "Chall Champ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF6780D2A31F6CF00CDC50B /* Debug */,
+				2CF6780E2A31F6CF00CDC50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF6780F2A31F6CF00CDC50B /* Build configuration list for PBXNativeTarget "Chall ChampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF678102A31F6CF00CDC50B /* Debug */,
+				2CF678112A31F6CF00CDC50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CF678122A31F6CF00CDC50B /* Build configuration list for PBXNativeTarget "Chall ChampUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF678132A31F6CF00CDC50B /* Debug */,
+				2CF678142A31F6CF00CDC50B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2CC051DD2A378474002E3BB8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = 2CF677DA2A31F6CF00CDC50B /* Project object */;
+}

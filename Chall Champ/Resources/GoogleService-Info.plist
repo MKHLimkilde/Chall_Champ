@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>968179456792-46b7ljmr16kp71t5lm6jehai25j0rvg7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.968179456792-46b7ljmr16kp71t5lm6jehai25j0rvg7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDiphVbqUUNjQNSPKHFw2aYyoFOWsc4doo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>968179456792</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ChallChamp.Chall-Champ</string>
+	<key>PROJECT_ID</key>
+	<string>challchamp-a2092</string>
+	<key>STORAGE_BUCKET</key>
+	<string>challchamp-a2092.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:968179456792:ios:6eb30507fc0209da3cdc6d</string>
+</dict>
+</plist>
